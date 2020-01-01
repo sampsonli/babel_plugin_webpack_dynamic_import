@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-webpack-dynamic-import",
+  "version": "1.0.0",
+  "description": "code-splitting your module",
+  "author": "sampsonli",
+  "keywords": [
+    "import",
+    "dynamic import",
+    "热加载",
+    "webpack",
+    "async import",
+    "split chunk",
+    "code-splitting"
+  ],
+  "homepage": "https://github.com/sampsonli/babel_plugin_webpack_dynamic_import",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc ./src/test.spec.ts"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
