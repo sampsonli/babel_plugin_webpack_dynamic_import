@@ -40,10 +40,6 @@ export default (_ref) => {
         if (arg.leadingComments && arg.leadingComments[0].value.indexOf('webpackChunkName:')) {
             return arg.leadingComments[0].value.replace('webpackChunkName:', '').replace(/\s/g, '').replace(/["|']/g, '');
         }
-
-        if (!~arg.value.indexOf('/')) {
-            return arg.value;
-        }
         return null;
     };
 
